@@ -2,42 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+     crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css">
     <title>Personal Portfolio</title>
 </head>
 <body>
-    <nav class="nav-bar nav-bar-expand-sm bg-dark">
-        <ul class="nav-bar nav">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-danger">
+        <ul class="nav-bar nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="http://">About</a>
+                <a class="nav-link" href="#welcome-section">About</a>
             </li>
-            <li>
-                <a class="nav-link" href="http://">Work</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Work</a>
             </li>
-            <li>
-                <a class="nav-link" href="http://">Contact</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
-    <section>
+    <section id="welcome-section">
         <h1>Hey I am a Mimic</h1>
         <p>a Web Developer</p>
     </section>
-    <section>
+    <section id="projects">
         <h2>These are some of my Projects</h2>
         <div></div>
         <a href="">See All</a>
     </section>
-    <section>
+    <section id="contact">
         <div>
             <h2>Lets work together ...</h2>
             <p>How do you take your coffee?</p>
         </div>
-        <div></div>
+        <div>
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="Project">
+                <p>
+                    <span><</span>
+                        Tribute Page
+                    <span>/></span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png" alt="Project">
+                <p>
+                    <span><</span>
+                        Random Quote Machine
+                    <span>/></span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png" alt="Project">
+                <p>
+                    <span><</span>
+                        Javascript Claculator
+                    <span>/></span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg" alt="Project">
+                <p>
+                    <span><</span>
+                        Map Data Across the Globe
+                    <span>/></span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png" alt="Project">
+                <p>
+                    <span><</span>
+                        Wikipedia Viewer
+                    <span>/></span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" >
+                <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png" alt="Project">
+                <p>
+                    <span><</span>
+                        Tic Tac Toe Game
+                    <span>/></span>
+                </p>
+            </a>
+        </div>
     </section>
       
 </body>
